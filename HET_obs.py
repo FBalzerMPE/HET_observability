@@ -27,7 +27,7 @@ include_losses = True
 include_HETDEX = True
 
 #targets file with headers: ID, RA, Dec, exptime, Nvisits (etc ok):
-targf = 'PI_targets.dat' #change if needed
+targf = 'example_targets.dat' #change if needed
 
 setup_time = 300 #assume 300 seconds. 
 
@@ -85,7 +85,7 @@ from matplotlib import pyplot as plt
 
 from matplotlib.ticker import MultipleLocator, FormatStrFormatter
 
-plt.register_cmap(name='viridis', cmap=plt.cm.viridis)
+# plt.register_cmap(name='viridis', cmap=plt.cm.viridis)
 
 from matplotlib import rc
 rc('font',**{'family':'serif','serif':['Computer Modern Roman']})
