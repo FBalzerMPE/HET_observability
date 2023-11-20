@@ -1,4 +1,4 @@
-#ID	RA		Dec		exptime	Nvis	
+#target_id	ra		dec		t_exp	num_visits	
 100001  304.0           66.0            9600    1       
 100002  304.0           -5.0            9600    1       
 100003  290.0           -5.0            9600    1       
